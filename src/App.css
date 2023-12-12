@@ -1,7 +1,7 @@
 /* App.css */
 
 body {
-  background: linear-gradient(90deg, #2e42ae 0%, #616fbe 50%);
+  background: linear-gradient(90deg, #2e42ae 0%, #616fbe 100%);
   margin: 0; /* Reset default body margin */
 }
 
@@ -21,11 +21,11 @@ body {
 }
 
 .partnership-form {
-  max-width: 600px; /* Adjust the maximum width of the form */
+  max-width: 400px;
   margin: 20px auto;
-  padding: 60px; /* Increase the padding to increase the background */
+  padding: 20px;
   background-color: #61dafb;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 label {
@@ -42,7 +42,7 @@ textarea {
 }
 
 button {
-  background-color: #2e42ae;
+  background-color: #61dafb;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -52,4 +52,33 @@ button {
 
 button:hover {
   background-color: #4fa3d1;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  position: relative;
+}
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+}
+
+.logo {
+  width: 100%; /* Adjust the size of the image */
+  height: auto;
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.email-link {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 16px; /* Adjust the font size */
+  text-decoration: none;
 }
